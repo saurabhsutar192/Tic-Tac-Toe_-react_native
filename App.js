@@ -8,21 +8,22 @@ let primaryColor = "orange";
 let Container = styled.View`
   display: flex;
   align-items: center;
+  justify-content: center;
 
-  padding: 60px 20px;
+  padding: 0 20px;
   height: 100%;
-  width: 100%;
 `;
 let BlueText = styled.Text`
   color: ${primaryColor};
   font-weight: bold;
 `;
 let BoxContainer = styled.View`
+  width: 300px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 70px 0 20px 0;
+  margin: 50px 0;
 `;
 let ButtonContainer = styled.View`
   display: flex;
@@ -74,12 +75,14 @@ let Title = styled.Text`
   font-size: 50px;
   font-weight: bold;
   color: ${(prop) => prop.color};
+  text-align: center;
 `;
 
 let ScoreBoardContainer = styled.View`
   margin-top: 40px;
   width: 100%;
   display: flex;
+  max-width: 500px;
   flex-direction: row;
   justify-content: space-between;
 `;

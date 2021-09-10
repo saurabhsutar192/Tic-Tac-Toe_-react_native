@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "",
+    "githubUrl": "https://github.com/saurabhsutar192/Tic-Tac-Toe_ReactNative"
   }
 }
