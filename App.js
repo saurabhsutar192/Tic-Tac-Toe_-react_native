@@ -33,7 +33,8 @@ let ControlBtns = styled.TouchableHighlight`
   align-items: center;
   background: #fff;
   border: 2px solid black;
-  padding: 10px 20px;
+  padding: 10px;
+  width: 100px;
   margin-top: 10px;
 `;
 let Btns = styled.Text`
